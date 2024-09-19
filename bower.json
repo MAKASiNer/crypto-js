@@ -3,10 +3,6 @@
   "version": "4.2.0",
   "description": "JavaScript library of crypto standards.",
   "license": "MIT",
-  "author": {
-    "name": "Evan Vosberg",
-    "url": "http://github.com/evanvosberg"
-  },
   "homepage": "http://github.com/brix/crypto-js",
   "repository": {
     "type": "git",
@@ -35,10 +31,9 @@
     "Base64url"
   ],
   "main": "index.js",
-  "dependencies": {
-    "expo-crypto": "~13.0.2"
-  },
+  "dependencies": {},
   "browser": {
     "crypto": false
-  }
+  },
+  "ignore": []
 }
